@@ -1,0 +1,263 @@
+.menu-button {
+    -fx-text-fill: black;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-weight: normal;
+    -fx-background-color: white;
+    -fx-font-size: 26px;
+}
+
+.menu-background {
+    -fx-background-color: rgba(68, 102, 142, 1);
+}
+
+.overview-background {
+    -fx-background-color: white;
+}
+
+.menu {
+    -fx-padding: 10;
+}
+
+.menuItem {
+    -fx-text-fill: white;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+}
+
+.menuItem2 {
+    -fx-text-fill: white;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 32px;
+    -fx-font-weight: 700;
+}
+
+.menuItem:hover {
+    -fx-text-fill: #62c6ff;
+}
+
+.menuItem2:hover {
+    -fx-text-fill: #62c6ff;
+}
+
+.bigtitle {
+    -fx-fill: white;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 36px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-border-insets: 5px;
+}
+
+.side-menu {
+    -fx-background-color: rgba(68, 102, 142, 1);
+    -fx-text-fill: white;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 35px;
+    -fx-font-weight: 600;
+}
+
+.side-menu-item {
+    -fx-text-fill: white;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 18px;
+}
+
+.side-menu-item:hover {
+    -fx-fill: rgb(44, 60, 72);
+}
+
+.metric-title {
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 30px;
+    -fx-font-weight: 900;
+    -fx-border-insets: 5px;
+}
+
+.metric {
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+
+.metric-value {
+    -fx-font-family: "Century Gothic";
+    -fx-fill: Black;
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+
+.time-bar {
+    -fx-background-color: rgba(68, 102, 142, 1);
+    -fx-fill: white;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 14px;
+}
+
+.overview {
+    -fx-fill: black;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+
+.overview-title {
+    -fx-fill: Black;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 35px;
+    -fx-font-weight: 900;
+    -fx-border-insets: 5px;
+}
+
+.summary-module {
+    -fx-fill: black;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 35px;
+    -fx-background-color: rgba(180, 209, 237, 1);
+}
+
+.light-box {
+    -fx-fill: rgba(180, 209, 237, 1);
+}
+
+.dark-box {
+    -fx-fill: rgba(227, 227, 227, 1);
+}
+
+.dark-box:hover {
+    -fx-fill: rgba(182, 182, 182, 1);
+}
+
+.dark-box-selected {
+    -fx-fill: rgb(42, 61, 128);
+}
+
+.filter-rectangle {
+    -fx-background-color: rgba(180, 209, 237, 1);
+    -fx-font-size: 15px;
+    -fx-text-fill: rgba(255, 255, 255, 1);
+    -fx-padding: 10 10 10 10;
+    -fx-font-family: "Century Gothic";
+}
+
+.titleprop {
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+}
+
+.button {
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 25px;
+    -fx-font-weight: 700;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: rgb(68, 102, 142);
+
+}
+
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #ffffff;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #808080
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #808080
+}
+
+.axis {
+    -fx-font-size: 1.4em;
+    -fx-tick-label-fill: #44668e;
+    -fx-font-family: Tahoma;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: #3448ff;
+}
+
+.default-color1.chart-series-line {
+    -fx-stroke: #00ff0f;
+}
+
+.default-color2.chart-series-line {
+    -fx-stroke: #ff00ff;
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: #3448ff, white;
+}
+
+.default-color1.chart-line-symbol {
+    -fx-background-color: #00ff0f, white;
+}
+
+.default-color2.chart-line-symbol {
+    -fx-background-color: #ff00ff, white;
+}
+
+.chart-bar {
+    -fx-background-radius: 0;
+    -fx-background-position: left center;
+}
+
+.default-color0.chart-bar {
+    -fx-background-color: #347bff;
+}
+.onHover.default-color0.chart-bar {
+    -fx-background-color: #3448ff;
+}
+
+.default-color1.chart-bar {
+    -fx-background-color: #00ff0f;
+}
+.onHover.default-color1.chart-bar {
+    -fx-background-color: #008f08;
+}
+
+.default-color2.chart-bar {
+    -fx-background-color: #ff00ff;
+}
+.onHover.default-color2.chart-bar {
+    -fx-background-color: #a300a4;
+}
