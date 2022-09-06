@@ -2,10 +2,10 @@
 This project is done with my groupmates  
 
 ## **import file**  
-!(https://github.com/rarapazii/Software-engineering-group-project/blob/master/seg-group-2-code/screenshots/filechooser.png?raw=true)
+<p align="center"><img src="seg-group-2-code/screenshots/filechooser.png" alt="introduction" width="600"/></p> 
  
 ## **Filter**
-!(https://github.com/rarapazii/Software-engineering-group-project/blob/master/seg-group-2-code/screenshots/filterscreen.png?raw=true)
+<p align="center"><img src="seg-group-2-code/screenshots/filter.png" alt="introduction" width="600"/></p> 
 
-##  **Main Pane**
-!(https://github.com/rarapazii/Software-engineering-group-project/blob/master/seg-group-2-code/screenshots/summary.png?raw=true)
+##  **Main Pane**  
+<p align="center"><img src="seg-group-2-code/screenshots/summary.png" alt="introduction" width="600"/></p> 
